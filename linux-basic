@@ -1,0 +1,14 @@
+man -- manual give all the information of the operation in linux
+ls -- list directory contents
+ls -a -- do not ignore entries starting with .
+pwd -- print name of current/working directory
+cd -- change directory
+clear -- move everything up 
+ls -l -- using a long listing format
+ls -la -- do not ignore entries starting with . and using a long listing format
+ls -h --  --human--readable print size like 1k, 234M, 2G
+mkdir -- make directories
+mkdir -p -- parents  allowing to make multi dirs like Linux/Ubuntu/Username
+rmdir  -- remove empty dirs
+cd .. -- go back to the upper folder
+rmdir -p -- remove the unempty folder but the args need to be write as a/b/c/
