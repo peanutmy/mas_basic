@@ -1,0 +1,3 @@
+c++:
+fabs() -- the absolutely value of float
+_SIZE_TYPE -- is container, can store the length of any string or vector
