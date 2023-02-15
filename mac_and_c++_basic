@@ -1,3 +1,5 @@
 c++:
 fabs() -- the absolutely value of float
-_SIZE_TYPE -- is container, can store the length of any string or vector
+_SIZE_TYPE -- is container, can store the length of any string or vectors
+char* strcpy(char *destination,const char * source) -- copy the C string pointed by source into the array pointed by destination, including the terminationg null characters
+c_str -- returns a pointer to an array that contains a null-terminated sequence of characters
