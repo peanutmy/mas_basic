@@ -1,3 +1,4 @@
+Linux basic command
 man -- manual give all the information of the operation in linux
 ls -- list directory contents
 ls -a -- do not ignore entries starting with .
@@ -12,3 +13,70 @@ mkdir -p -- parents  allowing to make multi dirs like Linux/Ubuntu/Username
 rmdir  -- remove empty dirs
 cd .. -- go back to the upper folder
 rmdir -p -- remove the unempty folder but the args need to be write as a/b/c/
+rm [filename]  -- remove the files
+rm -i [filename] -- remove the files use interactive mode
+rm -f -- f means force. this command means that remove the file ignore nonexistent files and arguments
+rm -r -- r means recursive. This command meansd that remove directories and their content recursively
+so when we use rm to remove the directories, we usually use command rm -rf
+cp -- copy files and directories
+cp [filename1] [filename2] -- copy the content from filename1 to filename2 in the same directory
+cp [filename] [absolute path] -- copy the content in filename to the absolute path
+cp -r -- copy directories recursively
+mv -- move (rename) files
+mv [filename1] [filename2] -- rename filename1 as filename2 in the same directory
+mv [filename1] [absolute path]/[relative path] -- move filename1 to the absolute path / or relative path
+head -- output the first part of files(about 10 lines of the file)
+head -[number of lines] [filename]-- output the first [number of lines] content in this file 
+tail -- output the last part of files (about 10 lines)
+tail -[number of lines] [filename]-- output the last [number of lines] content in this file 
+cat -- concatenate files and print on the standard output (print all the content of the file)
+echo -- display a line of text (the simplest way to create a file with content)
+echo [content] >[filename] -- create file with filename and with content
+cat [filename1] [filename2] [filename3] -- concatenate the content of all these files and print
+cat [filename1] [filename2] [filename3] >[filename4] -- create the file with filename4 with all the concatenate contents
+cat >[filename]
+content
+content
+content
+(use ctrl+D to exit) -- create the filename with more than 1 line content
+cat [filename1] >[filename2] -- copy the content in filename1 to filename2
+more -- file perusal filter for crt viewing (shows the percentage of content now to the whole file and use space key to look the next page)
+less -- opposite of more
+
+
+
+
+Linux file structure
+/ -- in linux means root 
+bin directory -- most binary files stores in this directory
+boot directory -- where all the needed files for the linux to boot or kept
+cdrom directory -- where your cd dirve is stored
+dev directory -- where all your physical deevices are mounted
+etc directory -- where all the configuration files are
+home directory -- where all user folders stored
+lib directory -- where binaries are kept
+meida -- use drives 
+opt directory -- for optional software for the system
+proc -- processes folder where a lot of systems information is represented as files
+root directory -- the home directory for the root account
+run directory -- where a lot of drives are auto mounted when you plug usb, only relavant to desktop environments
+usr directory -- contains files and utilities that are shared between users 
+
+
+System Information
+uptime -- tell you how long the system has been running
+free -- display amount of free and used memory in the system
+ps -- report a snapshot of the current processes
+df -- report file system disk space usage
+fdisk -- manipulate disk partition table
+lsblk - list block devices
+
+
+Linux package manager
+sudo -- super use do (access to restricted files and operations)
+apt -- command-line interface to install or update packages
+
+Text Editor
+nano -- Nano's ANOther editor, inspired by Pico
+vim
+
